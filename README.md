@@ -41,6 +41,11 @@ If you prefer to run manually, use command below:
     npm install
     npm install -g ts-node typescript
     ```
+#### Run the script
+    ```sh
+    npm start
+    ```
+If you prefer to run manually, use command below: 
 #### Run the script directly using ts-node:
   
     ```sh
@@ -53,6 +58,7 @@ If you prefer to run manually, use command below:
 
 Create a `package.json` file to manage dependencies.
 
+1. OPTION 1 <default> cont...
 **package.json:**
 ```json
 {
@@ -67,7 +73,26 @@ Create a `package.json` file to manage dependencies.
     "@types/node": "^20.0.0"
   },
   "devDependencies": {
-    "typescript": "^4.0.0"
+    "ts-node": "^10.9.2",
+    "typescript": "^4.9.5"
+  },
+  "author": "",
+  "license": "ISC"
+}
+```
+2. OPTION 2 cont...
+**package.json:**
+```json
+{
+  "name": "BigBang_CaseStudy",
+  "version": "1.0.0",
+  "description": "A script to generate an array with BIG, BANG, and BIGBANG replacing multiples of 3 and 5",
+  "scripts": {
+    "start": "ts-node bigbang.ts"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^4.9.5"
   },
   "author": "",
   "license": "ISC"
