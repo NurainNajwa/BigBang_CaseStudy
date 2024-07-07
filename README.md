@@ -17,6 +17,11 @@ This script generates an array of numbers from 1 to 100, replacing multiples of 
     npm install
     npm install -g typescript
     ```
+#### Run the script
+    ```sh
+    npm start
+    ```
+If you prefer to run manually, use command below: 
 #### Compile the TypeScript script.
   
     ```sh
