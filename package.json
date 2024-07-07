@@ -1,0 +1,18 @@
+{
+    "name": "BigBang_CaseStudy",
+    "version": "1.0.0",
+    "description": "A script to generate an array with BIG, BANG, and BIGBANG replacing multiples of 3 and 5",
+    "main": "bigbang.js",
+    "scripts": {
+        "start": "tsc bigbang.ts && node bigbang.js"
+    },
+    "dependencies": {
+        "@types/node": "^20.0.0"
+    },
+    "devDependencies": {
+        "ts-node": "^10.9.2",
+        "typescript": "^4.9.5"
+    },
+    "author": "",
+    "license": "ISC"
+}
