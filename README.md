@@ -87,7 +87,7 @@ Go to GitHub and create a new repository named BigBang_CaseStudy.
 3. Add the remote and push:
 
 ```sh
-git remote add origin https://github.com/yourusername/BigBang_CaseStudy.git
+git remote add origin https://github.com/NurainNajwa/BigBang_CaseStudy.git
 git branch -M main
 git push -u origin main
 ```
