@@ -126,4 +126,4 @@ BigBang_CaseStudy/
 
 
 
-This template includes instructions for setting up, running, and pushing your TypeScript project to GitHub. Adjust it as needed for your specific project details.
+This template includes instructions for setting up, running, and pushing your TypeScript project to GitHub.
